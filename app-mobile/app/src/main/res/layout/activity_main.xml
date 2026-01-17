@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Layout aplikacji - Rejestracja konta
-    Egzamin INF.04 - Technik Programista
-    Typ rozkładu: LinearLayout (liniowy)
--->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -12,47 +7,42 @@
     android:padding="16dp"
     android:background="#FFFFFF">
 
-    <!-- Napis "Rejestruj konto" z tlem Teal (#008080) -->
+    <!-- Naglowek: Rejestruj konto (tlo Teal #008080) -->
     <TextView
-        android:id="@+id/textTytul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Rejestruj konto"
+        android:text="@string/tytul"
         android:textSize="24sp"
         android:textColor="#FFFFFF"
         android:background="#008080"
         android:padding="16dp" />
 
-    <!-- Napis "Podaj e-mail:" -->
+    <!-- Etykieta: Podaj e-mail -->
     <TextView
-        android:id="@+id/labelEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Podaj e-mail:"
-        android:textSize="14sp"
+        android:text="@string/label_email"
         android:textColor="#000000"
         android:layout_marginTop="16dp" />
 
-    <!-- Pole edycyjne email z podpowiedzią "email" -->
+    <!-- Pole edycyjne: email -->
     <EditText
         android:id="@+id/editEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="email"
+        android:hint="@string/hint_email"
         android:inputType="textEmailAddress"
         android:textColor="#000000" />
 
-    <!-- Napis "Podaj hasło:" -->
+    <!-- Etykieta: Podaj haslo -->
     <TextView
-        android:id="@+id/labelHaslo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Podaj hasło:"
-        android:textSize="14sp"
+        android:text="@string/label_haslo"
         android:textColor="#000000"
         android:layout_marginTop="8dp" />
 
-    <!-- Pole edycyjne hasło (ukrywanie znaków) -->
+    <!-- Pole edycyjne: haslo (ukrywanie znakow) -->
     <EditText
         android:id="@+id/editHaslo"
         android:layout_width="match_parent"
@@ -60,17 +50,15 @@
         android:inputType="textPassword"
         android:textColor="#000000" />
 
-    <!-- Napis "Powtórz hasło:" -->
+    <!-- Etykieta: Powtorz haslo -->
     <TextView
-        android:id="@+id/labelPowtorzHaslo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Powtórz hasło:"
-        android:textSize="14sp"
+        android:text="@string/label_powtorz_haslo"
         android:textColor="#000000"
         android:layout_marginTop="8dp" />
 
-    <!-- Pole edycyjne powtórz hasło (ukrywanie znaków) -->
+    <!-- Pole edycyjne: powtorz haslo (ukrywanie znakow) -->
     <EditText
         android:id="@+id/editPowtorzHaslo"
         android:layout_width="match_parent"
@@ -78,21 +66,21 @@
         android:inputType="textPassword"
         android:textColor="#000000" />
 
-    <!-- Przycisk ZATWIERDŹ (wyśrodkowany) -->
+    <!-- Przycisk ZATWIERDZ (wysrodkowany) -->
     <Button
         android:id="@+id/buttonZatwierdz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ZATWIERDŹ"
+        android:text="@string/button_zatwierdz"
         android:layout_gravity="center"
         android:layout_marginTop="24dp" />
 
-    <!-- Obszar do wyświetlania komunikatów (wyśrodkowany) -->
+    <!-- Obszar komunikatow (wysrodkowany) -->
     <TextView
         android:id="@+id/textKomunikat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Autor 00000000000"
+        android:text="@string/autor"
         android:textSize="16sp"
         android:textColor="#000000"
         android:gravity="center"

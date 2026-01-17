@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Rejestracja</string>
+    <string name="tytul">Rejestruj konto</string>
+    <string name="label_email">Podaj e-mail:</string>
+    <string name="hint_email">email</string>
+    <string name="label_haslo">Podaj hasło:</string>
+    <string name="label_powtorz_haslo">Powtórz hasło:</string>
+    <string name="button_zatwierdz">ZATWIERDŹ</string>
+    <string name="autor">Autor 00000000000</string>
 </resources>

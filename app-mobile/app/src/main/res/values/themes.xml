@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Rejestracja" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#008080</item>
+        <item name="colorPrimaryDark">#006666</item>
+        <item name="colorAccent">#008080</item>
+    </style>
+</resources>
