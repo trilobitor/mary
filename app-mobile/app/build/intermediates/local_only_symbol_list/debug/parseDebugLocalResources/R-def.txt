@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color teal
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonZatwierdz
+id editEmail
+id editHaslo
+id editPowtorzHaslo
+id textKomunikat
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string autor
+string button_zatwierdz
+string hint_email
+string label_email
+string label_haslo
+string label_powtorz_haslo
+string tytul
+style Theme.Rejestracja
