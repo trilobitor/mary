@@ -1,2 +1,2 @@
 # Proguard rules for release build
-# Egzamin INF.04
+# Add project specific ProGuard rules here.
